@@ -13,9 +13,12 @@
 }
 
 * {
-    background: #2A2C2F;
-    box-sizing: border-box;
-    border: 5px red solid; /*temporal*/
+  max-width: 1280px;
+  max-height: 7473px;
+  border: 5px red solid; /*temporal*/
+  background-color: #2A2C2F;
+  box-sizing: border-box;
+  color: #fff;
 }
 
 .header {
@@ -36,6 +39,7 @@
   top: 194px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header_contenedor-title {
